@@ -1,0 +1,2 @@
+﻿metric,n_matched,pearson,pearson_pvalue,spearman,spearman_pvalue,kendall,kendall_pvalue,status,limitation
+SHDI_2023,29,-0.17553085344068345,0.36240993443572334,-0.1565389464715142,0.41740891192702745,-0.12407291674636627,0.34772813536033254,external_convergent_association,"SHDI is external to the project but conceptually overlaps with education, health and living-standard dimensions; this is convergent evidence, not fully independent validation. Tehran and Alborz are excluded because GDL reports them as a combined region."

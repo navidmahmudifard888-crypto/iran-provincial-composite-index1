@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+data/raw/*.xlsx
+data/processed/raw_observations_standardized.csv
+data/processed/transformed_observations.csv
+data/processed/normalized_observations.csv

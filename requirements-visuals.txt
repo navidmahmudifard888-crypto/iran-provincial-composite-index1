@@ -1,0 +1,6 @@
+-r requirements.txt
+matplotlib>=3.8
+geopandas>=0.14
+requests>=2.31
+arabic-reshaper>=3.0
+python-bidi>=0.4

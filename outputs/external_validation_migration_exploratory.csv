@@ -1,0 +1,2 @@
+﻿metric,n_matched,pearson,pearson_pvalue,spearman,spearman_pvalue,kendall,kendall_pvalue,status,year,unit,independence_note
+NetMigration_1390_1395,31,-0.12306055107300616,0.5095558180226146,-0.29153225806451616,0.11154963094645269,-0.23010752688172043,0.07137352126179489,exploratory_external_association,1390-1395,thousand persons,"Not used in composite score; migration is an excluded project series. Temporal gap to 1403 reference is substantial, and migration has ambiguous interpretation as a criterion, so this is not treated as validation."

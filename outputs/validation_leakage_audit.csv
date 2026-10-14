@@ -1,0 +1,2 @@
+﻿metric,exact_model_component,name_based_overlap_count,leakage_status,independence_class,note
+SHDI_2023,False,8,conceptual_overlap_present,external_but_not_conceptually_independent,SHDI is externally produced but overlaps conceptually with several model domains; use as convergent criterion rather than a clean holdout outcome.

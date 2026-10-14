@@ -1,0 +1,45 @@
+﻿series_id,decision,final_category,final_subindicator,final_direction,final_transform,reason,review_basis
+ابتدایی - مدرسه || مدارس و کلاس ها,EXCLUDED,آموزشی,ظرفیت آموزش ابتدایی, higher_better,per_100k_population,Redundant/ambiguous relative to direct per-capita school-rate series in the same workbook; retain in evidence layer but exclude from composite to avoid double representation of the same construct.,Conceptual redundancy plus high empirical correlation
+ابتدایی - کلاس || مدارس و کلاس ها,EXCLUDED,آموزشی,ظرفیت کلاس ابتدایی, higher_better,per_100k_population,Redundant/ambiguous relative to direct per-capita class-rate series in the same workbook; retain in evidence layer but exclude from composite.,Conceptual redundancy plus high empirical correlation
+سرانه مدرسه به ازای هر ۱۰۰ هزار نفر || مدارس و کلاس ها,CONDITIONAL,آموزشی,ظرفیت آموزش ابتدایی,higher_better,none,Direct rate is retained as the cleaner representation of primary-school capacity.,Direct rate preferred over reconstructed count
+سرانه کلاس به ازای هر ۱۰۰ هزار نفر || مدارس و کلاس ها,CONDITIONAL,آموزشی,ظرفیت کلاس ابتدایی,higher_better,none,Direct rate is retained as the cleaner representation of primary-class capacity.,Direct rate preferred over reconstructed count
+متوسطه اول - مدرسه || مدارس و کلاس ها,CONDITIONAL,آموزشی,ظرفیت مدرسه متوسطه اول,higher_better,per_100k_population,Retained because no direct rate counterpart exists in the active set.,Distinct level-specific capacity construct
+متوسطه اول - کلاس || مدارس و کلاس ها,CONDITIONAL,آموزشی,ظرفیت کلاس متوسطه اول,higher_better,per_100k_population,Retained because no direct rate counterpart exists in the active set.,Distinct level-specific capacity construct
+متوسطه دوم - مدرسه || مدارس و کلاس ها,CONDITIONAL,آموزشی,ظرفیت مدرسه متوسطه دوم,higher_better,per_100k_population,Retained because no direct rate counterpart exists in the active set.,Distinct level-specific capacity construct
+متوسطه دوم - کلاس || مدارس و کلاس ها,CONDITIONAL,آموزشی,ظرفیت کلاس متوسطه دوم,higher_better,per_100k_population,Retained because no direct rate counterpart exists in the active set.,Distinct level-specific capacity construct
+نرخ ارتقاء تحصیلی ابتدایی || نرخ ارتقاء تحصیلی آموزش و پرورش,CONDITIONAL,آموزشی,پیشرفت تحصیلی,higher_better,none,Outcome-oriented education measure.,Conceptual review
+نرخ ارتقاء تحصیلی متوسطه اول || نرخ ارتقاء,CONDITIONAL,آموزشی,پیشرفت تحصیلی,higher_better,none,Outcome-oriented education measure.,Conceptual review
+نرخ ارتقاء تحصیلی متوسطه دوم || نرخ ارتقاء,CONDITIONAL,آموزشی,پیشرفت تحصیلی,higher_better,none,Outcome-oriented education measure.,Conceptual review
+نرخ ترک تحصیل ابتدایی || نرخ ترک,CONDITIONAL,آموزشی,ترک تحصیل,higher_worse,none,Outcome-oriented education measure.,Conceptual review
+نرخ ترک تحصیل متوسطه اول || نرخ ترک,CONDITIONAL,آموزشی,ترک تحصیل,higher_worse,none,Conceptual review,
+Per Capita Budget || سرانه بودجه استانی,CONDITIONAL,اجتماعی,ظرفیت منابع عمومی,higher_better,none,Public-resource capacity retained as contextual support rather than a direct welfare outcome.,Conceptual review
+نرخ خودکشی به ازای 100 هزار نفر || خودکشی و مرگ مشکوک,CONDITIONAL,اجتماعی,مرگ و سلامت اجتماعی,higher_worse,none,Retained as a social/public-health outcome rate.,Conceptual review
+نرخ سواد || سرشماری و آموزش,CONDITIONAL,آموزشی,سواد,higher_better,none,Literacy is conceptually educational rather than primarily social.,Category semantic review
+نرخ مرگ مشکوک به ازای 100 هزار نفر || خودکشی و مرگ مشکوک,CONDITIONAL,اجتماعی,مرگ و سلامت اجتماعی,higher_worse,none,Retained as a social/public-health outcome rate; security duplicate excluded.,Cross-domain duplicate control
+نسبت طلاق به ازدواج || ازدواج و طلاق,CONDITIONAL,اجتماعی,خانواده و تشکیل خانوار,higher_worse,none,Retained as a social/family outcome ratio.,Conceptual review
+تورم || تورم,CONDITIONAL,اقتصادی,تورم,higher_worse,none,Core macroeconomic pressure measure.,Conceptual review
+شاخص فلاکت || فلاکت,EXCLUDED,اقتصادی,فشار اقتصادی, higher_worse,none,Composite derived largely from inflation and unemployment; those components already enter the model and create double counting.,Derived-index exclusion
+نرخ بیکاری - کل || مرکز آمار ایران,CONDITIONAL,اقتصادی,بیکاری,higher_worse,none,Retained and grouped with the second unemployment series as the same labor-market construct across adjacent years.,Conceptual grouping
+نرخ بیکاری - کل درصد || اقتصاد و اشتغال,CONDITIONAL,اقتصادی,بیکاری,higher_worse,none,Retained and grouped with the first unemployment series as the same labor-market construct across adjacent years.,Conceptual grouping
+نرخ فقر مطلق || فقر,CONDITIONAL,اقتصادی,فقر,higher_worse,none,Retained as a direct economic hardship measure; validation leakage must be considered for any poverty-based external criterion.,Conceptual review
+نرخ مشارکت اقتصادی - کل || مرکز آمار ایران,CONDITIONAL,اقتصادی,مشارکت و اشتغال,higher_better,none,Retained as labor-force participation measure.,Conceptual grouping
+نسبت اشتغال - کل || مرکز آمار ایران,CONDITIONAL,اقتصادی,مشارکت و اشتغال,higher_better,none,Retained as employment utilization measure.,Conceptual grouping
+Crime || خودکشی,EXCLUDED,امنیتی,جرم و خشونت,higher_worse,per_100k_population,Duplicate construct with explicit social suicide rate already included.,Cross-domain duplicate control
+Crime || دسته فردی,EXCLUDED,امنیتی,جرم و خشونت,higher_worse,per_100k_population,Source label is semantically underspecified for a defensible composite indicator.,Interpretability concern
+Crime || دستگیر شدگان,EXCLUDED,امنیتی,جرم و خشونت,higher_worse,per_100k_population,Arrest counts are partly enforcement/intensity dependent and are not a clean incidence measure.,Measurement interpretation concern
+Crime || سایر موارد,EXCLUDED,امنیتی,جرم و خشونت,higher_worse,per_100k_population,Residual category is too underspecified for a defensible standalone indicator.,Interpretability concern
+Crime || شرارت,CONDITIONAL,امنیتی,اختلال و درگیری عمومی,higher_worse,per_100k_population,Retained as a distinct recorded violence/disorder category.,Conceptual review
+Crime || قتل,CONDITIONAL,امنیتی,قتل,higher_worse,per_100k_population,Direct violent-crime outcome measure.,Conceptual review
+Crime || مرگهای مشکوک,EXCLUDED,امنیتی,جرم و خشونت,higher_worse,per_100k_population,Duplicate construct with explicit social suspicious-death rate already included.,Cross-domain duplicate control
+Crime || نزاع و درگیری,CONDITIONAL,امنیتی,اختلال و درگیری عمومی,higher_worse,per_100k_population,Retained as direct conflict/assault category and grouped with شرارت.,Conceptual grouping
+Crime || چاقو و زورگیری و باجگیری,CONDITIONAL,امنیتی,سرقت و زورگیری,higher_worse,per_100k_population,Retained as direct victimization/property/weapon-related category.,Conceptual review
+ClinicsCount || جمع کل درمانگاه ها,CONDITIONAL,زیرساختی,ظرفیت مراکز درمانی,higher_better,per_100k_population,Retained as facility-access capacity measure.,Conceptual grouping
+Doctors || دندانپزشک,CONDITIONAL,زیرساختی,ظرفیت پزشک,higher_better,per_100k_population,Retained as physician-capacity component.,Conceptual grouping
+Doctors || پزشک عمومی,CONDITIONAL,زیرساختی,ظرفیت پزشک,higher_better,per_100k_population,Retained as physician-capacity component.,Conceptual grouping
+Doctors || پزشک فوق تخصص,CONDITIONAL,زیرساختی,ظرفیت پزشک,higher_better,per_100k_population,Retained as physician-capacity component.,Conceptual grouping
+Doctors || پزشک متخصص,CONDITIONAL,زیرساختی,ظرفیت پزشک,higher_better,per_100k_population,Retained as physician-capacity component.,Conceptual grouping
+تخت بیمارستان به ازای هر ۱۰۰ هزار نفر || سلامت,CONDITIONAL,زیرساختی,ظرفیت تخت بیمارستان,higher_better,none,Retained as direct hospital-bed rate.,Conceptual grouping
+درصد مساحت خشکسالی (SPEI یک ساله) || خشکسالی,EXCLUDED,زیرساختی,فشار محیط‌زیستی,higher_worse,none,Environmental stress is meaningful but does not conceptually belong to infrastructure in the five-domain baseline; preserve as an extension candidate.,Category fit concern
+سرانه تخت فعال به ازای هر ۱۰۰ هزار نفر || بخش بهداشت و درمان,CONDITIONAL,زیرساختی,ظرفیت تخت بیمارستان,higher_better,none,Retained as active-bed capacity.,Conceptual grouping
+سرانه تخت مصوب به ازای هر ۱۰۰ هزار نفر || بخش بهداشت و درمان,CONDITIONAL,زیرساختی,ظرفیت تخت بیمارستان,higher_better,none,Retained as approved-bed capacity; distinct but related to active beds.,Conceptual grouping
+نرخ بیکاری - کل || مرکز آمار ایران,EXCLUDED,اقتصادی,بیکاری,higher_worse,none,"Conceptually redundant with نرخ بیکاری - کل درصد || اقتصاد و اشتغال (correlation 0.866, same subindicator); the percent-based 1402 series is closer to the 1403 reference year and is retained as the single representation of total unemployment rate to avoid double counting the same construct.",Conceptual and statistical redundancy flagged in redundancy_final.csv (same_subindicator=True)

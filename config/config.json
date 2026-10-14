@@ -1,0 +1,63 @@
+{
+  "input_path": "../data/raw/قلبم ، ایرانم.xlsx",
+  "reference_year": 1403,
+  "minimum_province_coverage": 25,
+  "minimum_categories_for_overall": 3,
+  "normalization": {
+    "method": "minmax",
+    "scope": "within_year",
+    "alternatives": [
+      "zscore",
+      "robust"
+    ]
+  },
+  "temporal_weighting": {
+    "method": "linear",
+    "linear_decay_per_year": 0.12,
+    "linear_floor": 0.25,
+    "exponential_lambda": 0.25,
+    "step_weights": {
+      "0": 1.0,
+      "2": 0.85,
+      "4": 0.65,
+      "999": 0.45
+    },
+    "alternatives": [
+      "exponential",
+      "stepwise"
+    ]
+  },
+  "missing_data": {
+    "imputation": "none",
+    "report_only": true
+  },
+  "aggregation": {
+    "include_statuses": [
+      "CORE",
+      "CONDITIONAL"
+    ],
+    "category_weights": {
+      "اقتصادی": 0.35,
+      "اجتماعی": 0.3,
+      "آموزشی": 0.2,
+      "امنیتی": 0.1,
+      "زیرساختی": 0.05
+    }
+  },
+  "redundancy_correlation_threshold": 0.85,
+  "simulation_iterations": 1000,
+  "random_seed": 20261002,
+  "temporal_sensitivity_reference_years": [
+    1400,
+    1401,
+    1402,
+    1403
+  ],
+  "monte_carlo_local_concentration": 80,
+  "model_version": "V2.1 Hardened + Denominator Alignment",
+  "denominator_rules": {
+    "education_school_class": "same_year_population_6plus",
+    "other_selected_count_series": "same_year_total_population_then_nearest_within_2_years",
+    "rates_percentages_ratios_indexes_per_capita": "no_population_division"
+  }
+}

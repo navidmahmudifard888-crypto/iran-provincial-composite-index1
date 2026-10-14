@@ -1,0 +1,2 @@
+﻿raw_rows_after_exact_dedup,raw_rows_before_exact_dedup,exact_duplicate_rows_removed,conflicting_rows_flagged,conflicting_province_year_keys,official_provinces_in_raw,raw_series,registry_series,included_series,core_series,conditional_series,excluded_series,categories,subindicators,effective_weight_sum,external_validation_status,external_validation_n
+4864,4893,29,30,0,31,151,151,33,0,33,118,5,22,1.0,external_convergent_association,29

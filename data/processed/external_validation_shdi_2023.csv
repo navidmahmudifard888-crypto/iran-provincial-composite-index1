@@ -1,0 +1,30 @@
+﻿province,metric,value,year,source,source_url,validation_type,tehran_alborz_excluded
+اردبیل,SHDI,0.761,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+بوشهر,SHDI,0.812,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+چهارمحال و بختیاری,SHDI,0.795,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+آذربایجان شرقی,SHDI,0.785,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+اصفهان,SHDI,0.831,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+فارس,SHDI,0.809,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+گیلان,SHDI,0.804,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+گلستان,SHDI,0.777,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+همدان,SHDI,0.774,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+هرمزگان,SHDI,0.769,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+ایلام,SHDI,0.815,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+کرمان,SHDI,0.779,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+کرمانشاه,SHDI,0.796,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+خراسان رضوی,SHDI,0.782,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+خوزستان,SHDI,0.802,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+کهگیلویه و بویراحمد,SHDI,0.792,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+کردستان,SHDI,0.746,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+لرستان,SHDI,0.781,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+مرکزی,SHDI,0.792,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+مازندران,SHDI,0.824,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+خراسان شمالی,SHDI,0.746,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+قزوین,SHDI,0.796,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+قم,SHDI,0.816,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+سمنان,SHDI,0.824,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+سیستان و بلوچستان,SHDI,0.687,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+خراسان جنوبی,SHDI,0.756,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+آذربایجان غربی,SHDI,0.759,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+یزد,SHDI,0.824,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
+زنجان,SHDI,0.772,2023,Global Data Lab,https://globaldatalab.org/shdi/table/shdi/IRN/,external_convergent_criterion,False
